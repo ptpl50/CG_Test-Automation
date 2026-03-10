@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="com.cleargear.listeners.MyListeners"></listener>
+</listeners>
+
+  <test thread-count="5" name="ChromeTest">
+  <parameter name="browserName" value="CHROME"></parameter>
+    <classes>
+        <class name="com.cleargearFunctional.testcases.LoginAndLogOut"/>
+       <class name="com.cleargearFunctional.testcases.Login_to_APP_Check_MainMenuPage"/>
+       <class name="com.cleargearFunctional.testcases.Login_to_APP_Check_Usermanagement"/>
+       <class name="com.cleargearFunctional.testcases.Login_Create_User_Logout"/>
+        <class name="com.cleargearFunctional.testcases.Login_to_APP_Check_ClearGearPage"/>
+         <class name="com.cleargearFunctional.testcases.Login_to_APP_Check_ClearGearPage_Alert_Logout"/>
+         <class name="com.cleargearFunctional.testcases.Login_to_App_Verify_Active_Module_In_Alert"/>
+         <class name="com.cleargearFunctional.testcases.Login_to_App_Verify_History_Module_In_Alert"/>
+    </classes>
+  </test> 
+  
+   <test thread-count="5" name="EdgeTest">
+  <parameter name="browserName" value="EDGE"></parameter>
+    <classes>
+       <class name="com.cleargearFunctional.testcases.LoginAndLogOut"/>
+       <class name="com.cleargearFunctional.testcases.Login_to_APP_Check_MainMenuPage"/>
+       <class name="com.cleargearFunctional.testcases.Login_to_APP_Check_Usermanagement"/>
+       <class name="com.cleargearFunctional.testcases.Login_Create_User_Logout"/>
+        <class name="com.cleargearFunctional.testcases.Login_to_APP_Check_ClearGearPage"/>
+         <class name="com.cleargearFunctional.testcases.Login_to_APP_Check_ClearGearPage_Alert_Logout"/>
+         <class name="com.cleargearFunctional.testcases.Login_to_App_Verify_Active_Module_In_Alert"/>
+         <class name="com.cleargearFunctional.testcases.Login_to_App_Verify_History_Module_In_Alert"/>
+    </classes>
+  </test>
+  
+<test thread-count="5" name="FirefoxTest">
+  <parameter name="browserName" value="FIREFOX"></parameter>
+    <classes>
+      <class name="com.cleargearFunctional.testcases.LoginAndLogOut"/>
+       <class name="com.cleargearFunctional.testcases.Login_to_APP_Check_MainMenuPage"/>
+       <class name="com.cleargearFunctional.testcases.Login_to_APP_Check_Usermanagement"/>
+       <class name="com.cleargearFunctional.testcases.Login_Create_User_Logout"/>
+        <class name="com.cleargearFunctional.testcases.Login_to_APP_Check_ClearGearPage"/>
+         <class name="com.cleargearFunctional.testcases.Login_to_APP_Check_ClearGearPage_Alert_Logout"/>
+         <class name="com.cleargearFunctional.testcases.Login_to_App_Verify_Active_Module_In_Alert"/>
+         <class name="com.cleargearFunctional.testcases.Login_to_App_Verify_History_Module_In_Alert"/>
+    </classes>
+  </test>
+  
+  </suite> <!-- Suite -->

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-09T15:14:55 IST" name="Suite" finished-at="2026-03-09T15:18:53 IST" duration-ms="237857">
+    <groups>
+    </groups>
+    <test started-at="2026-03-09T15:14:55 IST" name="ChromeTest" finished-at="2026-03-09T15:18:53 IST" duration-ms="237857">
+      <class name="com.cleargearFunctional.testcases.POM_Alert_History_Tab_TestClass">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.cleargearFunctional.testcases.POM_Alert_History_Tab_TestClass@53fb3dab]" started-at="2026-03-09T15:17:21 IST" name="setup" finished-at="2026-03-09T15:17:27 IST" duration-ms="5962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VeriFy_Login()[pri:1, instance:com.cleargearFunctional.testcases.POM_Alert_History_Tab_TestClass@53fb3dab]" started-at="2026-03-09T15:17:27 IST" name="VeriFy_Login" description="Verify_User_Can_Login_With_Valid_Username_And_Password " finished-at="2026-03-09T15:17:32 IST" duration-ms="5524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeriFy_Login -->
+        <test-method signature="VeriFy_AlertMenu()[pri:2, instance:com.cleargearFunctional.testcases.POM_Alert_History_Tab_TestClass@53fb3dab]" started-at="2026-03-09T15:17:32 IST" name="VeriFy_AlertMenu" description="Verify The Navigation Of Alert Menu" finished-at="2026-03-09T15:17:44 IST" duration-ms="11425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeriFy_AlertMenu -->
+        <test-method signature="VeriFy_HistoryTAB()[pri:3, instance:com.cleargearFunctional.testcases.POM_Alert_History_Tab_TestClass@53fb3dab]" started-at="2026-03-09T15:17:44 IST" name="VeriFy_HistoryTAB" description="Verify user can navigate to history tab" finished-at="2026-03-09T15:17:53 IST" duration-ms="9434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeriFy_HistoryTAB -->
+        <test-method signature="VeriFy_StartDate_EndDate_Field()[pri:4, instance:com.cleargearFunctional.testcases.POM_Alert_History_Tab_TestClass@53fb3dab]" started-at="2026-03-09T15:17:53 IST" name="VeriFy_StartDate_EndDate_Field" description="Verify Start and End Date field in history tab" finished-at="2026-03-09T15:17:59 IST" duration-ms="5905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeriFy_StartDate_EndDate_Field -->
+        <test-method signature="Verify_by_Entering_StartDate_EndDate()[pri:5, instance:com.cleargearFunctional.testcases.POM_Alert_History_Tab_TestClass@53fb3dab]" started-at="2026-03-09T15:17:59 IST" name="Verify_by_Entering_StartDate_EndDate" description="Verify start date functionality by entering start date in history tab" finished-at="2026-03-09T15:18:09 IST" duration-ms="9787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_by_Entering_StartDate_EndDate -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.cleargearFunctional.testcases.POM_Alert_History_Tab_TestClass@53fb3dab]" started-at="2026-03-09T15:18:09 IST" name="teardown" finished-at="2026-03-09T15:18:10 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.cleargearFunctional.testcases.POM_Alert_History_Tab_TestClass -->
+      <class name="com.cleargearFunctional.testcases.POM_ClearGear_History_TestClass">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.cleargearFunctional.testcases.POM_ClearGear_History_TestClass@cb0755b]" started-at="2026-03-09T15:18:10 IST" name="setup" finished-at="2026-03-09T15:18:16 IST" duration-ms="5871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VeriFy_Login()[pri:1, instance:com.cleargearFunctional.testcases.POM_ClearGear_History_TestClass@cb0755b]" started-at="2026-03-09T15:18:16 IST" name="VeriFy_Login" description="Verify_User_Can_Login_With_Valid_Username_And_Password " finished-at="2026-03-09T15:18:21 IST" duration-ms="5366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeriFy_Login -->
+        <test-method signature="VeriFy_History_Page_Navigation()[pri:2, instance:com.cleargearFunctional.testcases.POM_ClearGear_History_TestClass@cb0755b]" started-at="2026-03-09T15:18:21 IST" name="VeriFy_History_Page_Navigation" description="Verify The Navigation Of History Menu" finished-at="2026-03-09T15:18:32 IST" duration-ms="11414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeriFy_History_Page_Navigation -->
+        <test-method signature="Verify_by_Entering_StartDate_EndDate()[pri:3, instance:com.cleargearFunctional.testcases.POM_ClearGear_History_TestClass@cb0755b]" started-at="2026-03-09T15:18:33 IST" name="Verify_by_Entering_StartDate_EndDate" description="Verify start date functionality by entering start date in history tab" finished-at="2026-03-09T15:18:53 IST" duration-ms="20172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_by_Entering_StartDate_EndDate -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.cleargearFunctional.testcases.POM_ClearGear_History_TestClass@cb0755b]" started-at="2026-03-09T15:18:53 IST" name="teardown" finished-at="2026-03-09T15:18:53 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.cleargearFunctional.testcases.POM_ClearGear_History_TestClass -->
+      <class name="com.cleargearFunctional.testcases.POM_CG_Alert_TestClass">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.cleargearFunctional.testcases.POM_CG_Alert_TestClass@4b013c76]" started-at="2026-03-09T15:16:05 IST" name="setup" finished-at="2026-03-09T15:16:12 IST" duration-ms="6133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VeriFy_Login()[pri:1, instance:com.cleargearFunctional.testcases.POM_CG_Alert_TestClass@4b013c76]" started-at="2026-03-09T15:16:12 IST" name="VeriFy_Login" description="Verify_User_Can_Login_With_Valid_Username_And_Password " finished-at="2026-03-09T15:16:17 IST" duration-ms="5533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeriFy_Login -->
+        <test-method signature="VeriFy_AlertMenu()[pri:2, instance:com.cleargearFunctional.testcases.POM_CG_Alert_TestClass@4b013c76]" started-at="2026-03-09T15:16:17 IST" name="VeriFy_AlertMenu" description="Verify The Navigation Of Alert Menu" finished-at="2026-03-09T15:16:29 IST" duration-ms="11451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeriFy_AlertMenu -->
+        <test-method signature="VeriFy_Activealerts_Alertpage()[pri:3, instance:com.cleargearFunctional.testcases.POM_CG_Alert_TestClass@4b013c76]" started-at="2026-03-09T15:16:29 IST" name="VeriFy_Activealerts_Alertpage" description="Verify The Active module in Alert page" finished-at="2026-03-09T15:17:20 IST" duration-ms="51424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeriFy_Activealerts_Alertpage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.cleargearFunctional.testcases.POM_CG_Alert_TestClass@4b013c76]" started-at="2026-03-09T15:17:20 IST" name="teardown" finished-at="2026-03-09T15:17:21 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.cleargearFunctional.testcases.POM_CG_Alert_TestClass -->
+      <class name="com.cleargearFunctional.testcases.POM_ClearGear_TestClass">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.cleargearFunctional.testcases.POM_ClearGear_TestClass@53045c6c]" started-at="2026-03-09T15:14:56 IST" name="setup" finished-at="2026-03-09T15:15:02 IST" duration-ms="6558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VeriFy_Login()[pri:1, instance:com.cleargearFunctional.testcases.POM_ClearGear_TestClass@53045c6c]" started-at="2026-03-09T15:15:02 IST" name="VeriFy_Login" description="Verify_User_Can_Login_With_Valid_Username_And_Password " finished-at="2026-03-09T15:15:08 IST" duration-ms="5603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeriFy_Login -->
+        <test-method signature="VeriFy_AlertMenu()[pri:2, instance:com.cleargearFunctional.testcases.POM_ClearGear_TestClass@53045c6c]" started-at="2026-03-09T15:15:08 IST" name="VeriFy_AlertMenu" description="Verify The Navigation Of Alert Menu" finished-at="2026-03-09T15:15:21 IST" duration-ms="13410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeriFy_AlertMenu -->
+        <test-method signature="VeriFy_ManagerMenu()[pri:3, instance:com.cleargearFunctional.testcases.POM_ClearGear_TestClass@53045c6c]" started-at="2026-03-09T15:15:21 IST" name="VeriFy_ManagerMenu" description="Verify The Navigation Of Manager Menu" finished-at="2026-03-09T15:15:30 IST" duration-ms="8277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeriFy_ManagerMenu -->
+        <test-method signature="VeriFy_HistoryMenu()[pri:4, instance:com.cleargearFunctional.testcases.POM_ClearGear_TestClass@53045c6c]" started-at="2026-03-09T15:15:30 IST" name="VeriFy_HistoryMenu" description="Verify The Navigation Of History Menu" finished-at="2026-03-09T15:15:38 IST" duration-ms="8259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeriFy_HistoryMenu -->
+        <test-method signature="VeriFy_MaintenanceMenu()[pri:5, instance:com.cleargearFunctional.testcases.POM_ClearGear_TestClass@53045c6c]" started-at="2026-03-09T15:15:38 IST" name="VeriFy_MaintenanceMenu" description="Verify The Navigation Of Maintenance Menu" finished-at="2026-03-09T15:15:52 IST" duration-ms="13296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeriFy_MaintenanceMenu -->
+        <test-method signature="VeriFy_SearchMenu()[pri:6, instance:com.cleargearFunctional.testcases.POM_ClearGear_TestClass@53045c6c]" started-at="2026-03-09T15:15:52 IST" name="VeriFy_SearchMenu" description="Verify The Navigation Of Search Menu" finished-at="2026-03-09T15:16:05 IST" duration-ms="13372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeriFy_SearchMenu -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.cleargearFunctional.testcases.POM_ClearGear_TestClass@53045c6c]" started-at="2026-03-09T15:16:05 IST" name="teardown" finished-at="2026-03-09T15:16:05 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.cleargearFunctional.testcases.POM_ClearGear_TestClass -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
