@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.cleargear.listeners.MyListeners"/>
-  </listeners>
-  <test thread-count="5" name="ChromeTest(failed)">
-    <parameter name="browserName" value="CHROME"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.cleargearFunctional.testcases.POM_ClearGear_History_TestClass">
+      <class name="com.cleargearFunctional.testcases.CG_AlertModule_Functionality_TestScripts">
         <methods>
-          <include name="Verify_by_Entering_StartDate_EndDate"/>
-          <include name="setup"/>
-          <include name="teardown"/>
+          <include name="afterClass"/>
+          <include name="verify_Login"/>
         </methods>
-      </class> <!-- com.cleargearFunctional.testcases.POM_ClearGear_History_TestClass -->
+      </class> <!-- com.cleargearFunctional.testcases.CG_AlertModule_Functionality_TestScripts -->
     </classes>
-  </test> <!-- ChromeTest(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

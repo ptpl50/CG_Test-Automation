@@ -80,6 +80,7 @@ public class POM_AlertModuleCG extends Base
 			public void verifyStatisticsModule() throws Throwable
 			{
 				verifyModule(Statistics_Module, "Statistics Module");
+			
 			}
 
 			public void verifyAlertModules() throws Throwable

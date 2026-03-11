@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.cleargearFunctional.testcases.POM_ClearGera_TestClass">
+      <class name="com.cleargearFunctional.testcases.CG_AlertModule_Functionality_TestScripts">
         <methods>
-          <include name="VeriFy_Login"/>
-          <include name="VeriFy_AlertMenu"/>
-          <include name="setup"/>
-          <include name="teardown"/>
+          <include name="afterClass"/>
+          <include name="verify_Login"/>
         </methods>
-      </class> <!-- com.cleargearFunctional.testcases.POM_ClearGera_TestClass -->
+      </class> <!-- com.cleargearFunctional.testcases.CG_AlertModule_Functionality_TestScripts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

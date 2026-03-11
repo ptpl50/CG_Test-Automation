@@ -1,0 +1,5 @@
+url= https://clarityqa.tophatengineering.com/login
+browserName= chrome
+username= user1
+password= TestPassword1234!
+Bagde_ID_Text= 
